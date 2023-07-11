@@ -66,3 +66,35 @@ background-color:#FFF;
   align-items: center;
   gap: 24px;
 }
+
+.first-image{
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 250px 250px 5px 5px;
+  background:#A7216226;
+  margin: 110px 0px 32px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.Second-image{
+  background:#0597A026;
+  width: 464px;
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+}
+
+.Third-image{
+  background:#477D1126;
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+
+}
+.title-img{
+  text-align: center;
+}
