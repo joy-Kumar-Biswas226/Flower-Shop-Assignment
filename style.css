@@ -59,42 +59,59 @@ background-color:#FFF;
   font-weight: 400px;
   line-height: 30px;
 }
-.section-images{
-  max-width: 1440px auto;
+.section-images {
+  max-width: 1400px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
 }
 
 .first-image{
-  width: 464px;
-  height: 538px;
+  width: 400px;
+  height: 500px;
   flex-shrink: 0;
-  border-radius: 250px 250px 5px 5px;
+  border-radius: 300px 300px 0px 0px;
   background:#A7216226;
-  margin: 110px 0px 32px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  
 }
 
 .Second-image{
   background:#0597A026;
-  width: 464px;
-height: 538px;
+  width: 400px;
+height: 500px;
 flex-shrink: 0;
 border-radius: 300px 300px 0px 0px;
 }
 
 .Third-image{
   background:#477D1126;
-  width: 464px;
-  height: 538px;
+  width: 400px;
+  height: 500px;
   flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
 
 }
 .title-img{
   text-align: center;
+}
+
+.Deal-Title{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.Hot-Deal-flowers{
+  border-radius: 8px;
+  background: #E554730D;
+  display: flex;
+  justify-content: center;
+  height: 750px;
+  width: 1300px;
+flex-shrink: 0;
 }
